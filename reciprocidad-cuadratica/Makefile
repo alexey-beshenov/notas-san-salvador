@@ -3,4 +3,4 @@ reciprocidad-cuadratica.pdf:
 	pdflatex reciprocidad-cuadratica
 
 clean:
-	rm -f *.aux *.aut *.log *.toc *.pdf
+	rm -f *.aux *.log *.out *.toc *.pdf
