@@ -5,7 +5,10 @@ San Salvador that can be found at
 
   http://cadadr.org/san-salvador/
 
-## What I uploaded thus far
+I hope these may be of some use.
+
+
+## What I have uploaded thus far
 
 * **categorias/**
 
@@ -26,3 +29,20 @@ San Salvador that can be found at
 
   Reciprocidad cuadrática; una parte del curso
   de la teoría de números elemental en la licenciatura.
+
+
+## Acknowledgements
+
+Prof. Gabriel Alexander Chicas Reyes invested a lot of his time in proofreading
+draft versions of these notes and made many valuable remarks regarding grammar,
+mathematical writing in Spanish, mathematics, etc.
+
+My visits to El Salvador were supported by the Ministry of Education.
+
+Special thanks to
+
+* Carlos Mauricio Canjura Linares (the Misiter of education at the time),
+
+* José Nerys Funes Torres (director of the math department during my visits),
+
+* Prof. Ernesto Americo Hidalgo Castellanos.
