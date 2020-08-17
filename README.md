@@ -1,4 +1,4 @@
-# Lecture notes written at the University of El Salvador
+# Lecture notes written at the University of El Salvador (2016–2019)
 
 The idea of this repository is to collect all LaTeX code for my notes written in
 San Salvador that can be found at
