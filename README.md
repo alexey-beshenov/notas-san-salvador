@@ -10,11 +10,13 @@ I hope these may be of some use.
 
 ## What I have uploaded thus far
 
+
 * **categorias/**
 
   (Junio de 2018)
 
   Introducción al lenguaje funtorial/categórico.
+
 
 * **cuatro-cuadrados/**
 
@@ -22,6 +24,17 @@ I hope these may be of some use.
 
   Una charla sobre el teorema de cuatro cuadrados
   para los estudiantes de licenciatura.
+
+
+* **groebner/**
+
+  (Primavera de 2019)
+
+  Curso de maestría "Intoducción al álgebra conmutativa computacional"
+  (bases de Gröbner etc.)
+
+  Página del curso: http://cadadr.org/san-salvador/2019-groebner/
+
 
 * **reciprocidad-cuadratica/**
 
