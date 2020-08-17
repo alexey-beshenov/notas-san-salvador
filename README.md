@@ -23,12 +23,19 @@ I hope these may be of some use.
   Una charla sobre el teorema de cuatro cuadrados
   para los estudiantes de licenciatura.
 
-* **reciprocidad-cuadrática/**
+* **reciprocidad-cuadratica/**
 
   (Noviembre de 2018)
 
   Reciprocidad cuadrática; una parte del curso
   de la teoría de números elemental en la licenciatura.
+
+
+## Typos and corrections
+
+All these texts were written for my students while I was visiting El Salvador.
+I don't plan to edit them, but if you spot an error or typo, please drop me
+a message to cadadr@gmail.com.
 
 
 ## Acknowledgements
