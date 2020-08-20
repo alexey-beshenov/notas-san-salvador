@@ -36,6 +36,13 @@ I hope these may be of some use.
   Página del curso: http://cadadr.org/san-salvador/2019-groebner/
 
 
+* **numeros-p-adicos/**
+
+  (Abril y Septiembre de 2018)
+
+  Introducción a los números p-ádicos y el lema de Hensel.
+
+
 * **reciprocidad-cuadratica/**
 
   (Noviembre de 2018)
