@@ -38,7 +38,7 @@ I hope these may be of some use.
 
 * **numeros-p-adicos/**
 
-  (Abril y Septiembre de 2018)
+  (Abril y septiembre de 2018)
 
   Introducción a los números p-ádicos y el lema de Hensel.
 
