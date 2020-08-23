@@ -92,8 +92,10 @@ Recordemos algunos ejemplos de anillos que hemos visto.
      \sum_{i_1,\ldots,i_n \ge 0} (a_{i_1,\ldots,i_n} + b_{i_1,\ldots,i_n})\,X_1^{i_1}\cdots X_n^{i_n} \]
   y
   \begin{multline*}
-    \left(\sum_{i_1,\ldots,i_n \ge 0} a_{i_1,\ldots,i_n}\,X_1^{i_1}\cdots X_n^{i_n}\right) \cdot \left(\sum_{j_1,\ldots,j_n \ge 0} b_{j_1,\ldots,j_n}\,X_1^{j_1}\cdots X_n^{j_n}\right) \\
-    \dfn \sum_{k_1,\ldots,k_n \ge 0} \left(\sum_{\substack{(k_1,\ldots,k_n) = \\ (i_1,\ldots,i_n) + (j_1,\ldots,j_n)}} a_{i_1,\ldots,i_n}\,b_{j_1,\ldots,j_n}\right)\,X_1^{k_1}\cdots X_n^{k_n}.
+    \left(\sum_{i_1,\ldots,i_n \ge 0} a_{i_1,\ldots,i_n}\,X_1^{i_1}\cdots X_n^{i_n}\right) \cdot
+    \left(\sum_{j_1,\ldots,j_n \ge 0} b_{j_1,\ldots,j_n}\,X_1^{j_1}\cdots X_n^{j_n}\right) \\
+    \dfn \sum_{k_1,\ldots,k_n \ge 0} \left(\sum_{\substack{(k_1,\ldots,k_n) = \\
+    (i_1,\ldots,i_n) + (j_1,\ldots,j_n)}} a_{i_1,\ldots,i_n}\,b_{j_1,\ldots,j_n}\right)\,X_1^{k_1}\cdots X_n^{k_n}.
   \end{multline*}
 
 \item[6)] Si quitamos la condición que $a_{i_1,\ldots,i_n} = 0$, salvo un número
@@ -541,13 +543,15 @@ $g\colon A \to R [X_1,\ldots,X_n]$ tal que $x_i \mapsto X_i$. Luego,
 necesariamente $g\circ f = \id{R [X_1,\ldots,X_n]}$ y $f\circ g = \id{A}$:
 \[ \begin{tikzcd}
     X_i \ar[|->]{rr} && x_i \ar[|->]{rr} && X_i \\
-    R [X_1,\ldots,X_n] \ar[dashed]{rr}{\exists !}[swap]{f} \ar[dashed,bend left=15]{rrrr}{\exists ! = \idid} && A \ar[dashed]{rr}{\exists !}[swap]{g} && R [X_1,\ldots,X_n] \\
+    R [X_1,\ldots,X_n] \ar[dashed]{rr}{\exists !}[swap]{f} \ar[dashed,bend left=15]{rrrr}{\exists ! = \idid} &&
+    A \ar[dashed]{rr}{\exists !}[swap]{g} && R [X_1,\ldots,X_n] \\
     & & R\ar{ull}\ar{u}[swap]{\alpha}\ar{urr}
 \end{tikzcd} \]
 
 \[ \begin{tikzcd}
     x_i \ar[|->]{rr} && X_i \ar[|->]{rr} && x_i \\
-    A \ar[dashed]{rr}{\exists !}[swap]{g} \ar[dashed,bend left=18]{rrrr}{\exists ! = \idid} && R [X_1,\ldots,X_n] \ar[dashed]{rr}{\exists !}[swap]{f} && A \\
+    A \ar[dashed]{rr}{\exists !}[swap]{g} \ar[dashed,bend left=18]{rrrr}{\exists ! = \idid} &&
+    R [X_1,\ldots,X_n] \ar[dashed]{rr}{\exists !}[swap]{f} && A \\
     & & R\ar{ull}{\alpha}\ar{u}\ar{urr}[swap]{\alpha}
 \end{tikzcd} \]
 
@@ -603,7 +607,8 @@ necesariamente $g\circ f = \id{R [X_1,\ldots,X_n]}$ y $f\circ g = \id{A}$:
      \sum_{g\in G} (a_g+b_g)\,g \]
   y el producto mediante la multiplicación en $G$ y la distributividad formal:
   \begin{multline*}
-    \Bigl(\sum_{h\in G} a_h\,h\Bigr) \cdot \Bigl(\sum_{k\in G} b_k\,k\Bigr) \dfn \sum_{h\in G} a_h \Bigl( \sum_{k\in G} b_k\,hk\Bigr) =
+    \Bigl(\sum_{h\in G} a_h\,h\Bigr) \cdot \Bigl(\sum_{k\in G} b_k\,k\Bigr) \dfn
+    \sum_{h\in G} a_h \Bigl( \sum_{k\in G} b_k\,hk\Bigr) =
     \sum_{h\in G} a_h \, \Bigl( \sum_{g\in G} b_{h^{-1}g}\,h (h^{-1} g)\Bigr) \\
     = \sum_{h\in G} \Bigl(\sum_{h\in G} a_h\,b_{h^{-1}g}\Bigr)\,g =
     \sum_{g\in G} \Bigl(\sum_{hk = g} a_h b_k\Bigr)\,g.
@@ -612,7 +617,8 @@ necesariamente $g\circ f = \id{R [X_1,\ldots,X_n]}$ y $f\circ g = \id{A}$:
   $\{ h^{-1} g \mid g\in G \}$ está en biyección con los elementos
   de $G$. Entonces, podemos tomar como la definición la
   identidad\footnote{Note que es parecida a la fórmula
-    \[ \Bigl(\sum_{i\ge 0} a_i\,X^i\Bigr) \cdot \Bigl(\sum_{j \ge 0} b_j\,X^j\Bigr) \dfn
+    \[ \Bigl(\sum_{i\ge 0} a_i\,X^i\Bigr) \cdot
+      \Bigl(\sum_{j \ge 0} b_j\,X^j\Bigr) \dfn
       \sum_{k\ge 0} \Bigl(\sum_{i + j = k} a_i b_j\Bigr)\,X^k. \]
     (Esta no es una coincidencia.)}
   \[ \Bigl(\sum_{h\in G} a_h\,h\Bigr) \cdot \Bigl(\sum_{k\in G} b_k\,k\Bigr) \dfn
@@ -1396,7 +1402,9 @@ se siguen de los axiomas correspondientes para $R$.
          \overline{X} & \overline{X} & \overline{X + 1} & \overline{0} & \overline{1} \\
          \overline{X + 1} & \overline{X + 1} & \overline{X} & \overline{1} & \overline{0} \\
        \end{array} \]
- Notamos que este grupo es isomorfo al grupo de Klein $V \isom \ZZ/2\ZZ \times \ZZ/2\ZZ$. La tabla de multiplicación viene dada por
+  Notamos que este grupo es isomorfo al grupo de Klein
+  $V \isom \ZZ/2\ZZ \times \ZZ/2\ZZ$.
+  La tabla de multiplicación viene dada por
      \[ \begin{array}{c|cccc}
           \cdot & \overline{0} & \overline{1} & \overline{X} & \overline{X + 1} \\
           \hline
@@ -1478,9 +1486,15 @@ Más adelante en el curso vamos a construir todos los cuerpos finitos.
     I''$. Entonces, $\overline{g\circ f} = \overline{g} \circ \overline{f}$:
 
     \[ \begin{tikzcd}
-        I\ar[dashed]{r}\ar[>->]{d} & I'\ar[dashed]{r}\ar[>->]{d} & I''\ar[>->]{d} \\
-        R\ar{r}{f}\ar[->>]{d} & R'\ar{r}{g}\ar[->>]{d} & R''\ar[->>]{d} \\
-        R/I\ar[dashed]{r}{\overline{f}}\ar[dashed,bend right]{rr}[swap]{\overline{g\circ f} = \overline{g}\circ\overline{f}} & R'/I'\ar[dashed]{r}{\overline{g}} & R''/I'' \\
+        I\ar[dashed]{r}\ar[>->]{d} &
+        I'\ar[dashed]{r}\ar[>->]{d} &
+        I''\ar[>->]{d} \\
+        R\ar{r}{f}\ar[->>]{d} &
+        R'\ar{r}{g}\ar[->>]{d} &
+        R''\ar[->>]{d} \\
+        R/I\ar[dashed]{r}{\overline{f}}\ar[dashed,bend right]{rr}[swap]{\overline{g\circ f} = \overline{g}\circ\overline{f}} &
+        R'/I'\ar[dashed]{r}{\overline{g}} &
+        R''/I'' \\
       \end{tikzcd} \]
   \end{enumerate}
 
@@ -1623,7 +1637,7 @@ En fin, vamos a describir los ideales en el anillo cociente.
   $x \mapsto x + I$. Hay una biyección
   \begin{align*}
     \{ \text{ideales bilaterales } J\subseteq R\text{ tales que }I\subseteq J \} & \leftrightarrow
-                                                                                    \{ \text{ideales bilaterales }\overline{J} \subseteq R/I \},\\
+    \{ \text{ideales bilaterales }\overline{J} \subseteq R/I \},\\
     J & \mapsto p (J) = J/I,\\
     p^{-1} (\overline{J}) & \mapsfrom \overline{J}.
   \end{align*}
@@ -1665,7 +1679,9 @@ En fin, vamos a describir los ideales en el anillo cociente.
   Describamos los ideales en el anillo cociente $\ZZ/12\ZZ$. Según el teorema,
   estos corresponden a los ideales en $\ZZ$ que contienen a $12\ZZ$:
   $$12\ZZ \subseteq n\ZZ \subseteq \ZZ.$$
-  Dado que $12\ZZ \subseteq n\ZZ$ significa que $n \mid 12$, tenemos $n = 1,2,3,4,6,12$. Entonces, los ideales en el cociente son
+  Dado que $12\ZZ \subseteq n\ZZ$ significa que $n \mid 12$,
+  tenemos $n = 1,2,3,4,6,12$.
+  Entonces, los ideales en el cociente son
   \begin{align*}
     \ZZ/12\ZZ & = \{ [0], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11] \},\\
     2\ZZ/12\ZZ & = \{ [0], [2], [4], [6], [8], [10] \},\\
