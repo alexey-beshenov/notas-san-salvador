@@ -1,4 +1,9 @@
-all: 12-anillos-conmutativos.pdf
+all: 11-anillos.pdf \
+     12-anillos-conmutativos.pdf
+
+11-anillos.pdf:
+	pdflatex 11-anillos
+	pdflatex 11-anillos
 
 12-anillos-conmutativos.pdf:
 	pdflatex 12-anillos-conmutativos
