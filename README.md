@@ -28,7 +28,7 @@ I hope these may be of some use.
 
 * **esquemas/**
 
-  (Primavera de 2019)
+  (Agosto de 2019)
 
   Seminario de maestría "Invitación a la teoría de esquemas".
 
