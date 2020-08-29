@@ -26,6 +26,15 @@ I hope these may be of some use.
   para los estudiantes de licenciatura.
 
 
+* **esquemas/**
+
+  (Primavera de 2019)
+
+  Seminario de maestría "Invitación a la teoría de esquemas".
+
+  Página del curso: http://cadadr.org/san-salvador/2019-esquemas/
+
+
 * **groebner/**
 
   (Primavera de 2019)
