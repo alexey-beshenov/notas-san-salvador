@@ -10,71 +10,50 @@ I hope these may be of some use.
 
 ## What I have uploaded thus far
 
-* **bernoulli/**
-
-  (Febrero de 2017)
-
-  Introducción a los números de Bernoulli.
+* `bernoulli/` —
+  **Introducción a los números de Bernoulli**
+  (febrero de 2017).
 
   Página del curso:
   https://cadadr.org/teaching/san-salvador/2017-02-bernoulli/
 
-
-* **categorias/**
-
-  (Junio de 2018)
-
-  Introducción al lenguaje funtorial/categórico.
+* `categorias/` —
+  **Introducción al lenguaje funtorial/categórico**
+  (junio de 2018).
 
   Página del curso:
   https://cadadr.org/teaching/san-salvador/2018-06-categorias/
 
+* `cuatro-cuadrados/` —
+  una charla sobre el **teorema de cuatro cuadrados**
+  para los estudiantes de licenciatura
+  (marzo de 2018).
 
-* **cuatro-cuadrados/**
-
-  (Marzo de 2018)
-
-  Una charla sobre el teorema de cuatro cuadrados
-  para los estudiantes de licenciatura.
-
-
-* **esquemas/**
-
-  (Agosto de 2019)
-
-  Seminario de maestría "Invitación a la teoría de esquemas".
+* `esquemas/` —
+  seminario de maestría «**Invitación a la teoría de esquemas**»
+  (agosto de 2019).
 
   Página del curso:
   https://cadadr.org/teaching/san-salvador/2019-esquemas/
 
-
-* **groebner/**
-
-  (Primavera de 2019)
-
-  Curso de maestría "Intoducción al álgebra conmutativa computacional"
-  (bases de Gröbner etc.)
+* `groebner/` —
+  curso de maestría «**Intoducción al álgebra conmutativa computacional**»
+  (bases de Gröbner etc.; primavera de 2019).
 
   Página del curso:
   https://cadadr.org/teaching/san-salvador/2019-groebner/
 
-
-* **numeros-p-adicos/**
-
-  (Abril y septiembre de 2018)
-
-  Introducción a los números p-ádicos y el lema de Hensel.
+* `numeros-p-adicos/` —
+  introducción a los **números p-ádicos** y el **lema de Hensel**
+  (abril y septiembre de 2018).
 
   Página del curso:
   https://cadadr.org/teaching/san-salvador/2018-04-numeros-p-adicos/
 
-
-* **reciprocidad-cuadratica/**
-
-  (Noviembre de 2018)
-
-  Reciprocidad cuadrática; una parte del curso
-  de la teoría de números elemental en la licenciatura.
+* `reciprocidad-cuadratica/` —
+  **reciprocidad cuadrática**; una parte del curso
+  de la teoría de números elemental en la licenciatura
+  (noviembre de 2018).
 
   Página del curso:
   https://cadadr.org/teaching/san-salvador/2018-04-numeros-p-adicos/
