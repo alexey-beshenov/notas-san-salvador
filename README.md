@@ -80,6 +80,16 @@ I hope these may be of some use.
   https://cadadr.org/teaching/san-salvador/2018-04-numeros-p-adicos/
 
 
+## Compilation
+
+Compiling the documents requires `pdflatex`, `metapost`, `bibtex`, etc.,
+as well as various LaTeX packages. Everything is available from TeX Live.
+Running `make all` should run the complete compilation process
+(if you use GNU/Linux).
+
+If you only need the compiled PDFs, check https://cadadr.org/teaching/
+
+
 ## Typos and corrections
 
 All these texts were written for my students while I was visiting El Salvador.
