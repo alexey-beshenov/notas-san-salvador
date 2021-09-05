@@ -16,12 +16,18 @@ I hope these may be of some use.
 
   Introducción a los números de Bernoulli.
 
+  Página del curso:
+  https://cadadr.org/teaching/san-salvador/2017-02-bernoulli/
+
 
 * **categorias/**
 
   (Junio de 2018)
 
   Introducción al lenguaje funtorial/categórico.
+
+  Página del curso:
+  https://cadadr.org/teaching/san-salvador/2018-06-categorias/
 
 
 * **cuatro-cuadrados/**
@@ -38,7 +44,8 @@ I hope these may be of some use.
 
   Seminario de maestría "Invitación a la teoría de esquemas".
 
-  Página del curso: http://cadadr.org/san-salvador/2019-esquemas/
+  Página del curso:
+  https://cadadr.org/teaching/san-salvador/2019-esquemas/
 
 
 * **groebner/**
@@ -48,7 +55,8 @@ I hope these may be of some use.
   Curso de maestría "Intoducción al álgebra conmutativa computacional"
   (bases de Gröbner etc.)
 
-  Página del curso: http://cadadr.org/san-salvador/2019-groebner/
+  Página del curso:
+  https://cadadr.org/teaching/san-salvador/2019-groebner/
 
 
 * **numeros-p-adicos/**
@@ -56,6 +64,9 @@ I hope these may be of some use.
   (Abril y septiembre de 2018)
 
   Introducción a los números p-ádicos y el lema de Hensel.
+
+  Página del curso:
+  https://cadadr.org/teaching/san-salvador/2018-04-numeros-p-adicos/
 
 
 * **reciprocidad-cuadratica/**
@@ -65,12 +76,15 @@ I hope these may be of some use.
   Reciprocidad cuadrática; una parte del curso
   de la teoría de números elemental en la licenciatura.
 
+  Página del curso:
+  https://cadadr.org/teaching/san-salvador/2018-04-numeros-p-adicos/
+
 
 ## Typos and corrections
 
 All these texts were written for my students while I was visiting El Salvador.
-I don't plan to edit them, but if you spot an error or typo, please drop me
-a message to cadadr@gmail.com.
+I don't plan to edit them in any substantial way, but if you spot an error or
+typo, please drop me a message to cadadr@gmail.com.
 
 
 ## Acknowledgements
