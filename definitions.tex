@@ -40,10 +40,15 @@
 \usepackage{array}
 \newcolumntype{x}[1]{>{\centering\hspace{0pt}}p{#1}}
 
-\usepackage[english,russian,polutonikogreek,spanish]{babel}
+% TODO: the following line causes conflict with new texlive (!)
+% \usepackage[english,russian,polutonikogreek,spanish]{babel}
+% \newcommand{\russian}[1]{{\selectlanguage{russian}#1}}
+
+% Remove conflicting options for the moment:
+\usepackage[english,polutonikogreek,spanish]{babel}
+
 \AtBeginDocument{\shorthandoff{"}}
 \newcommand{\greek}[1]{{\selectlanguage{polutonikogreek}#1}}
-\newcommand{\russian}[1]{{\selectlanguage{russian}#1}}
 
 % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 % Limit/colimit symbols (with accented i: lím / colím)
