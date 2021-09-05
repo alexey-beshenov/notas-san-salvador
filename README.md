@@ -3,12 +3,18 @@
 The idea of this repository is to collect all LaTeX code for my notes written in
 San Salvador that can be found at
 
-  http://cadadr.org/san-salvador/
+  https://cadadr.org/teaching/san-salvador/
 
 I hope these may be of some use.
 
 
 ## What I have uploaded thus far
+
+* **bernoulli/**
+
+  (Febrero de 2017)
+
+  Introducción a los números de Bernoulli.
 
 
 * **categorias/**
