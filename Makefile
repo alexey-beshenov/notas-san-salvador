@@ -1,17 +1,13 @@
-all:
-	cd bernoulli && $(MAKE)
-	cd categorias && $(MAKE)
-	cd cuatro-cuadrados && $(MAKE)
-	cd esquemas && $(MAKE)
-	cd groebner && $(MAKE)
-	cd numeros-p-adicos && $(MAKE)
-	cd reciprocidad-cuadratica && $(MAKE)
+SUBDIRS := bernoulli categorias cuatro-cuadrados esquemas groebner numeros-p-adicos reciprocidad-cuadratica
+
+all: $(SUBDIRS)
+
+$(SUBDIRS):
+	$(MAKE) -C $@
 
 clean:
-	cd bernoulli && $(MAKE) clean
-	cd categorias && $(MAKE) clean
-	cd cuatro-cuadrados && $(MAKE) clean
-	cd esquemas && $(MAKE) clean
-	cd groebner && $(MAKE) clean
-	cd numeros-p-adicos && $(MAKE) clean
-	cd reciprocidad-cuadratica && $(MAKE) clean
+	for dir in $(SUBDIRS); do \
+        $(MAKE) -C $$dir clean; \
+	done
+
+.PHONY: clean $(SUBDIRS)

@@ -2,16 +2,20 @@ define bibrun
     pdflatex $(1); bibtex $(1); pdflatex $(1); pdflatex $(1)
 endef
 
-all:
-	cd pic && $(MAKE)
+SUBDIRS := ejercicios folletos notas-diarias pic
+
+all: pic bernoulli.pdf ejercicios folletos notas-diarias
+
+bernoulli.pdf: bernoulli.tex
 	$(call bibrun,bernoulli)
-	cd ejercicios && $(MAKE)
-	cd folletos && $(MAKE)
-	cd notas-diarias && $(MAKE)
+
+$(SUBDIRS):
+	$(MAKE) -C $@
 
 clean:
 	rm -f *.log *.aux *.out *.bbl *.blg *.toc *.tmp *.pdf *~
-	cd pic && $(MAKE) clean
-	cd ejercicios && $(MAKE) clean
-	cd folletos && $(MAKE) clean
-	cd notas-diarias && $(MAKE) clean
+	for dir in $(SUBDIRS); do \
+        $(MAKE) -C $$dir clean; \
+	done
+
+.PHONY: clean $(SUBDIRS)
